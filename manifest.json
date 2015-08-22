@@ -1,0 +1,16 @@
+{
+  "name": "Latexuations",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+    ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Toggle latex for math equations for ncatlab.org",
+    "default_icon" : "icon38.png"
+  },
+  "manifest_version": 2
+}
